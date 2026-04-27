@@ -1,26 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>YouTube.com Clone</title>
-        <style>
-            .thumbnail{
-                width: 300px;
-                border-radius: 300px;
 
-            }
-            .search{
-                padding-bottom: 10px;
-                padding-top: 10px;
-                padding-right: 20px;
-                padding-left: 20px;
-                background-color: whitesmoke;
-                border-radius: 2px;
-                border:none;
-            }
-        </style>
-        <body>
-           <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
-           <input type="text" placeholder="Search" class="search">
-        </body>
-    </head>
+<head>
+  <title>YouTube.com Clone</title>
+  <style>
+    .thumbnail {
+      width: 300px;
+      margin-left: 0px;
+      display: block;
+      margin-bottom: 0px;
+
+    }
+
+    .search {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      background-color: whitesmoke;
+      border-radius: 2px;
+      border: none;
+      display: block;
+    }
+
+
+
+    .v1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 300px;
+      margin-right: 15px;
+    }
+
+    .video-dec {
+      display: inline-block;
+    }
+
+    .video-pro {
+      display: inline-block;
+      width: 50px;
+    }
+    .cp1{
+      display: inline-block;
+      width: 50px;
+      vertical-align: top;
+    }
+    .ci1{
+      display: inline-block;
+      width: 200px;
+      margin-top: 0px;
+    }
+    .pp1{
+      width: 100%;
+      margin-top: 2px;
+      border-radius: 50px;
+    }
+    .video-title{
+      margin-top: 2px;
+    }
+  </style>
+
+<body>
+  <input type="text" placeholder="Search" class="search">
+
+  <div class="v1">
+    <div><img class="thumbnail" src="thumbnail/thumbnail-1.webp"></div>
+    <div>
+      <div class="cp1">
+        <img class = "pp1" src="channel/channel-1.jpeg">
+      </div>
+      <div class="ci1">
+        <p class="video-title">
+          Talking Tech and AI with google CEO Sundar Pichai
+        </p>
+        <p>
+          Marques Brownel
+        </p>
+        <p>
+          3.4 Million views &#183 6 months ago
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <div class="v1">
+    <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+    <p class="video-title">
+      Don't try to laugh challenge #9
+    </p>
+    <p>
+      Marli piller
+    </p>
+    <p>
+      19 Million views &#183 4 years ago
+    </p>
+  </div>
+
+</body>
+</head>
+
 </html>
