@@ -6,100 +6,38 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
   <title>YouTube.com Clone</title>
-  <style>
-    p {
-      font-family: roboto, Arial;
-    }
 
-
-    .thumbnail {
-      width: 100%;
-      margin-left: 0px;
-      display: block;
-      margin-bottom: 0px;
-
-    }
-
-    .search {
-      padding-bottom: 10px;
-      padding-top: 10px;
-      padding-right: 20px;
-      padding-left: 20px;
-      background-color: whitesmoke;
-      border-radius: 2px;
-      border: none;
-      display: block;
-    }
-
-
-
-
-
-    .video-dec {
-      display: inline-block;
-    }
-
-    .video-pro {
-      display: inline-block;
-      width: 50px;
-    }
-
-    .cp {
-
-      vertical-align: top;
-      margin-top: 10px;
-    }
-
-    .ci {
-
-      margin-top: 10px;
-      margin-left: 1px;
-      font-family: arial;
-    }
-
-
-    .pp1 {
-      width: 35px;
-      margin-top: 2px;
-      border-radius: 50px;
-    }
-
-    .video-title {
-      margin-top: 2px;
-      font-family: Arial;
-      font-weight: bold;
-      font-size: 14px;
-    }
-
-    .video-author {
-      font-size: 12px;
-      color: rgb(96, 96, 96);
-      cursor: pointer;
-      margin-bottom: 0px;
-    }
-
-    .video-stats {
-      margin-top: 4px;
-      margin-bottom: 12px;
-      font-size: 12px;
-      color: rgb(96, 96, 96);
-    }
-
-    .video-grid-coloumn {
-      display: grid;
-      grid-template-columns: 50px 1fr;
-    }
-    .video-grid{
-      display:grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      column-gap: 15px;
-      row-gap: 40px;
-    }
-  </style>
+</head>
 
 <body>
-  <input type="text" placeholder="Search" class="search">
+  <div class="header">
+    <div class="left-section">
+
+      <img src="icon/hamburger-menu.svg" class="hamburger-menu">
+      <img src="icon/youtube-logo.svg" class="youtube-logo">
+    </div>
+    <div class="middle-section">
+      <input type="text" placeholder="Search" class="search">
+
+      <button class="icon">
+        <img src="icon/search.svg">
+      </button>
+
+      <button class="icon1">
+        <img src="icon/voice-search-icon.svg">
+      </button>
+    </div>
+    <div class="right-section">
+      right-section
+    </div>
+
+
+  </div>
+
   <div class="video-grid">
     <div class="v1">
       <div><img class="thumbnail" src="thumbnail/thumbnail-1.webp"></div>
@@ -115,7 +53,7 @@
             Marques Brownel
           </p>
           <p class="video-stats">
-            3.4 Million views &#183 6 months ago
+            3.4M views &#183 6 months ago
           </p>
 
         </div>
@@ -135,7 +73,7 @@
             Marli piller
           </p>
           <p class="video-stats">
-            19 Million views &#183 4 years ago
+            19M views &#183 4 years ago
           </p>
         </div>
       </div>
@@ -155,7 +93,7 @@
             Sniperwolf
           </p>
           <p class="video-stats">
-            20 Million views &#183 9 months ago
+            20M views &#183 9 months ago
           </p>
 
         </div>
@@ -176,7 +114,7 @@
             Tony stark
           </p>
           <p class="video-stats">
-            500 Million views &#183 1 months ago
+            500M views &#183 1 months ago
           </p>
 
         </div>
@@ -197,7 +135,7 @@
             kadane channel
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            8000M views &#183 2 months ago
           </p>
 
         </div>
@@ -211,13 +149,13 @@
         </div>
         <div class="ci">
           <p class="video-title">
-            kadane's algorithm to solve sum subarray problem
+            Anything you fit in the circle I'll pay for it
           </p>
           <p class="video-author">
-            kadane channel
+            Mrbeast
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            141M views &#183 1 year ago
           </p>
 
         </div>
@@ -231,13 +169,13 @@
         </div>
         <div class="ci">
           <p class="video-title">
-            kadane's algorithm to solve sum subarray problem
+            Why planes don't fly in tibet
           </p>
           <p class="video-author">
-            kadane channel
+            Reallifelore
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            6.6M views &#183 2 year ago
           </p>
 
         </div>
@@ -251,13 +189,13 @@
         </div>
         <div class="ci">
           <p class="video-title">
-            kadane's algorithm to solve sum subarray problem
+            Inside the world's biggest passenger plane
           </p>
           <p class="video-author">
-            kadane channel
+            Tech vision
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            3.7M views &#183 10 months ago
           </p>
 
         </div>
@@ -271,13 +209,13 @@
         </div>
         <div class="ci">
           <p class="video-title">
-            kadane's algorithm to solve sum subarray problem
+            The secret to Super human STRENGTH
           </p>
           <p class="video-author">
-            kadane channel
+            ThenX
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            20M views &#183 3 year ago
           </p>
 
         </div>
@@ -291,13 +229,13 @@
         </div>
         <div class="ci">
           <p class="video-title">
-            kadane's algorithm to solve sum subarray problem
+            How the world's largest cruise ship makes 30,000 Meals Everday
           </p>
           <p class="video-author">
-            kadane channel
+            Business Insider
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            14M views &#183 2 year ago
           </p>
 
         </div>
@@ -311,13 +249,13 @@
         </div>
         <div class="ci">
           <p class="video-title">
-            kadane's algorithm to solve sum subarray problem
+            Dubai's crazy Under water Train and other things #only in Dubai
           </p>
           <p class="video-author">
-            kadane channel
+            Destination Tips
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            3M views &#183 2 months ago
           </p>
 
         </div>
@@ -331,13 +269,13 @@
         </div>
         <div class="ci">
           <p class="video-title">
-            kadane's algorithm to solve sum subarray problem
+            What would happen if you didn't drink water?
           </p>
           <p class="video-author">
-            kadane channel
+            TED-Ed
           </p>
           <p class="video-stats">
-            8000 Million views &#183 2 months ago
+            12M views &#183 5 year ago
           </p>
 
         </div>
@@ -347,6 +285,6 @@
 
 
 </body>
-</head>
+
 
 </html>
