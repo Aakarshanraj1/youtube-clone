@@ -1,7 +1,29 @@
     .search {
-     flex: 1;
-     height: 36px;
+        flex: 1;
+        height: 36px;
+        padding-left: 10px;
+        font-size: 16px;
+        border-width: 1px;
+        border-color: rgb(237, 237, 237);
+        border-radius: 2px;
+        border-style: solid;
+        box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+        width: 0px;
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+        
+    }
 
+    .search::placeholder {
+        font-family: Arial;
+        font-size: 16px;
+    }
+
+    .search:focus {
+        outline: none;
+        /* removes black outline */
+        border: 1px solid rgb(200, 200, 200);
+        /* optional clean border */
     }
 
     .header {
@@ -20,37 +42,57 @@
     }
 
     .middle-section {
-    
+
         flex: 1;
         margin-left: 70px;
-     
+
         max-width: 500px;
         display: flex;
         align-items: center;
     }
-       
+
     .icon {
         height: 40px;
-        width: 40px;
-        min-width: 40px;
-     
+        width: 66px;
+        background-color: rgb(240, 240, 240);
+        border: 1px solid rgb(192, 192, 192);
 
-          
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: -2px;
+        
+    }
+    .icon img{
+        height:24px;
+        width: 24px;
     }
 
     .icon1 {
         height: 40px;
         width: 40px;
-        min-width: 40px;
-        
-       
+        border-radius: 40px;
+        border-width: 1px;
+        border: none;
+        border-color: rgb(192, 192, 192);
+        margin-left: 10px;
+
+
 
     }
 
     .right-section {
-        background-color: lightblue;
-        width: 200px;
-        margin-left: 35px;
+
+        width: 180px;
+        margin-left: 29px;
+        margin-right: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        
     }
 
     .hamburger-menu {
@@ -63,4 +105,18 @@
         width: 90px;
         height: 20px;
     }
+    .upload{
+        height: 24px;
 
+    }
+    .app{
+        height: 24px;
+
+    }
+    .noti{
+        height: 24px;
+    }
+    .myp{
+        height: 32px;
+        border-radius: 16px;
+    }
